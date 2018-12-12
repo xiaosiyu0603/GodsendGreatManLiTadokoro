@@ -14,7 +14,7 @@ ideas = {
             }
 
             available = {
-                controls_state = 282
+                controls_state = 763
             }
 
             research_bonus = {
