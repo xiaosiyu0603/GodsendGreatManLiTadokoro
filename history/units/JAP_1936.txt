@@ -1,0 +1,1323 @@
+﻿division_template = {
+	name = "甲种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = JAP_INF_01
+									# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		cavalry = { x = 4 y = 0 }
+		cavalry = { x = 4 y = 1 }
+		cavalry = { x = 4 y = 2 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "乙种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = JAP_INF_01
+									# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+# division_template = {
+# 	name = "乙种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+# 	division_names_group = JAP_INF_01
+# 									# 1 engineering regiment, 1 recon regiment
+# 	regiments = {
+# 		infantry = { x = 0 y = 0 }
+# 		infantry = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 0 y = 3 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 1 y = 3 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		infantry = { x = 2 y = 2 }
+# 		infantry = { x = 2 y = 3 }
+# 		infantry = { x = 3 y = 0 }
+# 		infantry = { x = 3 y = 1 }
+# 		infantry = { x = 3 y = 2 }
+# 		infantry = { x = 3 y = 3 }
+# 		cavalry = { x = 4 y = 0 }
+# 		artillery_brigade = { x = 0 y = 4 }
+# 	}
+# 	support = {
+# 		engineer = { x = 0 y = 0 }
+# 		recon = { x = 0 y = 1 }
+# 	}
+# }
+
+division_template = {
+	name = "独立混成旅团" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
+	division_names_group = JAP_IMB_01
+										# 1 engineering battalion
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		light_armor = { x= 2 y = 0 }
+		light_armor = { x= 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵师团" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	division_names_group = JAP_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "自动车师团" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment, 
+	division_names_group = JAP_MOT_01
+										#1 engineer regiment, 1 mounted artillery regiment
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "陆战队"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+	division_names_group = JAP_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+	priority = 2
+}
+division_template = {
+	name = "驻屯师团" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+	division_names_group = JAP_GAR_01
+										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+
+	#Kita Homengun - North Japan Army
+	division = { # "7 'Kuma' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 12421 #Asahigawa
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "大凑基地海兵团" #"Ominato Kichi Kaiheidan"
+		location = 9859 #Ominato Naval Base
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "千岛基地守备队" #"Chishima Kichi Shubitai"
+		location = 1399 #Shumshu
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+	division = { # "Karafuto Dokuritsu Konsei Ryodan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 201
+		}
+		location = 12446 #Toyohara
+		division_template = "独立混成旅团"
+		start_experience_factor = 0.3
+	}
+
+	#Chuo Homengun - East Japan Army
+	division = { # "2 'Yu' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7087 #Shizuoka
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "Konoe Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 168
+		}
+		location = 1182 #Tokyo
+		division_template = "自动车师团"			# Elite Guard unit (highest experience, best equipment)
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "大阪基地海兵团" #"Osaka Kichi Kaiheidan"
+		location = 7072 #Osaka
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+	division = {
+		name = "横须贺特别陆战队" #"Yokusaka Tokubetsu Rikusentai"
+		location = 9998 #Yokosuka
+		division_template = "陆战队"
+		start_experience_factor = 0.3
+	}
+
+	#Roppou Homengun - West Japan Army
+	division = { # "4 'Yodo' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9950 #Nagasaki
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "吴基地海兵团" #"Kure Kichi Kaiheidan"
+		location = 1092 #Hiroshima
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "佐世保基地海兵团" #"Sasebo Kichi Kaiheidan"
+		location = 9950 #Sasebo/Nagasaki
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+
+	#Taiwan Homengun - Taiwan Army
+	division = {
+		name = "台湾基地守备队" #"Taiwan Kichi Shubitai"
+		location = 7186 #Taipei
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+	#3 Homengun - 3rd Field Army
+	division = { # "3 'Ko' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7186 #Taipei
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "6 'Mei' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7186 #Taipei
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "11 'Nishiki' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7186 #Taipei
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+
+
+	#Chosen Gun - Korea Army
+	division = { # "19 'Tora' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 4052 #Pyongyang
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "20 'Asa' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 7125 #Seoul
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "釜山基地海兵团" #"Chinkai Kichi Kaiheidan"
+		location = 4056 #Pusan
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+
+	### Island IJN Garrisons ###
+
+	division = {
+		name = "冲绳基地守备队" #"Okinawa Kichi Shubitai"
+		location = 11932 #Naha
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+
+
+	#1 Konkyochi Ichigun 根据地1军团
+	division = {
+		name = "塞班基地守备队" #"Saipan Kichi Shubitai"
+		location = 3995 #Saipan
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "硫磺岛基地守备队" #"Iwoto Kichi Shubitai"
+		location = 13025 #Iwo Jima硫磺岛
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "南鸟岛基地守备队" #"Minamitorishima Kichi Shubitai"
+		location = 13026 #Marcus Island马卡斯岛
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3	
+	}
+
+	#2 Konkyochi Ichigun
+	division = {
+		name = "雅浦岛基地守备队" #"Yappu Kichi Shubitai"
+		location = 13028 #Yap
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "帛琉群岛基地守备队" #"Palau Kichi Shubitai"
+		location = 4357 #Palau
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "特鲁克岛基地守备队" #"Truk Kichi Shubitai"
+		location = 2489 #Truk
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "萨塔万基地守备队" #"Satawan Kichi Shubitai"
+		location = 13035 #Satawan
+
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+	division = {
+		name = "乌利西岛基地守备队" #"Ulithi Kichi Shubitai"
+		location = 13029 #Ulithi
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+
+	#3 Konkyochi Ichigun
+	division = {
+		name = "夸贾林基地守备队" #"Kwajalein Kichi Shubitai"
+		location = 13041 #Kwajalein
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "埃尼威托克基地守备队" #"Eniwetok Kichi Shubitai"
+		location = 13046 #Eniwetok
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "波纳佩基地守备队" #"Ponape Kichi Shubitai"
+		location = 13036 #Ponape
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "南屿基地守备队" #"Mili Kichi Shubitai"
+		location = 13040 #Mili
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = {
+		name = "马洛埃拉普环礁基地守备队" #"Maleolap Kichi Shubitai"
+		location = 13043 #Maleolap
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+		
+	}
+
+
+	##### Kwantung Army #####
+	#Garrisons
+
+	division = {
+		name = "满铁守备队" #"Manshu Tetsudo Shubitai" # Manchuria Railway Guard
+		location = 11771 #Mukden奉天
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7	
+	}
+	division = {
+		name = "关东军司令部守备队" #"Kantogun Shureibu Keibitai"
+		location = 4572 #Hsinking新京
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7		
+	}
+	division = {
+		name = "旅顺基地守备队" #"Ryojun Kichi Shubitai"
+		location = 1150 #Dalian
+		division_template = "驻屯师团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	division = { # "9 'Take' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3944 #Near Changkufeng Lake
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "14 'Sho' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3843 #Eastern Manchuria
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+	#Hoppou Manchuko Homengun - Northern Manchukuo Army
+	division = {
+		#name = "第1独立守备连队" #"1 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 7743
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_equipment_factor = 0.7		
+	}
+	division = {
+		#name = "第2独立守备连队" #"2 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 10541
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7		
+	}
+	division = { # "1 'Gyoku' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10612
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "1 Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7697
+		division_template = "骑兵师团"
+		start_experience_factor = 0.2
+	}
+
+	# 5 Homengun - 5th Field Army
+	division = {
+		#name = "第3独立守备连队" #"3 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 10521
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		
+	}
+	division = {
+		#name = "第4独立守备连队" #"4 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 10368
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7	
+	}
+	division = {
+		#name = "第5独立守备连队" #"5 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 10698
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		
+	}
+	division = {
+		#name = "第6独立守备连队" #"6 Dokuritsu Shubirentai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 12500
+		division_template = "驻屯师团"		# Japanese garrison (better than militia, but still with older equipment)
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		
+	}
+	division = { # "8 'Sugi' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1693
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "12 'Ken' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7569
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+	
+	### Chumo Gun -- Inner Mongolian Army ###
+	division = { # "1 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12469
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "2 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12469
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "3 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7812
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "4 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7812
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "5 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10429
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "6 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10429
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "7 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3978
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+	division = { # "8 Mouko Kiheishidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3978
+		division_template = "骑兵师团"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
+		start_experience_factor = 0.2
+	}
+
+
+	### Kita-Shina Ichigun - North China Army ###
+	#Independents
+	division = { # "5 'Koi' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3955 #East Hebei Autonomous Council
+		division_template = "自动车师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "1 Dokuritsu Konsei Ryodan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3900 #East Hebei Autonomous Council
+		division_template = "独立混成旅团"
+		start_experience_factor = 0.3
+	}
+	division = { # "11 Dokuritsu Konsei Ryodan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11822 #East Hebei Autonomous Council
+		division_template = "独立混成旅团"
+		start_experience_factor = 0.3
+	}
+
+	#2 Homengun - 2nd Field Army
+
+	division = { # "10 'Tetsu' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 881
+		division_template = "甲种步兵师团"
+		start_experience_factor = 0.3
+	}
+	division = { # "16 'Kaki' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9768
+		division_template = "乙种步兵师团"
+		start_experience_factor = 0.3
+	}
+
+
+
+### IJN ###
+#Taiwan (Goaxing)
+	navy = {
+		name = "第3舰队" #Later assigned for the Chinenese theater
+		base = 12068
+		location = 12068
+		#Dai 10 Sentai
+		ship = { name = "出云" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "球磨" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级" } } }
+		#Dai 11 Sentai, Momi-class destroyers
+		#Dai 25 Kuchikutai
+		ship = { name = "榧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "梨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		#Dai 26 Kuchikutai
+		ship = { name = "榆" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "栗" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "柿" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "梅" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		#Dai 27 Kuchikutai
+		ship = { name = "苇" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "菱" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "菫" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		#Former Dai 28 Kuchikutai
+		ship = { name = "莲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "蓬" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "蓼" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		#Other Momi-Class destroyers
+		ship = { name = "菊" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "葵" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "萩" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "藤" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "薄" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "茑" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+
+	navy = {
+		name = "第5水雷战队" #A part of "Dai 3 Kantai"
+		base = 12068
+		location = 12068
+		#Flagship
+		ship = { name = "夕张" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		##Dai 13 Kuchikutai
+		ship = { name = "吴竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "若竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "早苗" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		##Dai 16 Kuchikutai
+		ship = { name = "芙蓉" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "刈萱" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "朝颜" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	navy = {
+		name = "高雄警备舰队"
+		base = 12068
+		location = 12068	
+		#Dai 4 Kuchikutai駆逐隊
+		ship = { name = "岛风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "滩风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "秋风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "羽风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+
+#Yokosuka (Tokyo)横須賀
+	navy = {
+		name = "第1舰队"
+		base = 9998
+		location = 9998  #Yokosuka
+		#Dai 1 Sentai
+		ship = { name = "长门" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP version_name = "长门级" } } }
+		ship = { name = "榛名" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "扶桑" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "山城" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
+		#Dai 8 Sentai
+		ship = { name = "川内" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "川内级"} } }
+		ship = { name = "神通" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "川内级"} } }
+		ship = { name = "长良" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+	}
+	
+	navy = {
+		name = "第1水雷战队" #A part of "Dai 1 Kantai"
+		base = 9998
+		location = 9998  #Yokosuka
+		#Flagship
+		ship = { name = "阿武隈" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		#Dai 9 Kuchikutai
+		ship = { name = "有明" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "夕暮" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		#Dai 21 Kuchikutai
+		ship = { name = "初春" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "子日" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "若叶" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+		ship = { name = "初霜" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		#Dai 30 Kuchikutai
+		ship = { name = "睦月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "如月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "弥生" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "卯月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+
+	navy = {
+		name = "第1潜水战队" # A part of "Dai 1 Kantai"
+
+		base = 9998
+		location = 9998  #Yokosuka
+		#Kaidai-class Submarines
+		ship = { name = "伊-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-152" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }		
+		ship = { name = "伊-153" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }			
+		ship = { name = "伊-154" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-155" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-156" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-157" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-158" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-159" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-162" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-164" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-165" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-166" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-168" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-169" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-70" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+		ship = { name = "伊-171" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }
+	}
+
+	navy = {
+		name = "第1航空战队" #"1 Koku 战队" # A part of "Dai 1 Kantai"
+		base = 9998
+		location = 9998  #Yokosuka
+		ship = { name = "龙骧" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 18 } # historical 24
+				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 } 	# historical 12
+
+			}
+		}
+		#Dai 5 Kuchikutai
+		ship = { name = "朝风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "春风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "松风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "旗风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	navy = {
+		name = "横须贺预备舰队" #"Yokosuka Yobikantai" # Patrol and reserve fleet, including ships under modernization
+		base = 9998
+		location = 9998  #Yokosuka
+		ship = { name = "陆奥" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP version_name = "长门级" } } }
+		ship = { name = "鸟海" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "高雄级"} } }
+		ship = { name = "摩耶" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "高雄级"} } }
+		ship = { name = "高雄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "高雄级"} } }
+		ship = { name = "五十铃" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		ship = { name = "木曾" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		# Dai 3 Kuchikutai
+		ship = { name = "汐风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "夕风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "太刀风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "帆风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		# Dai 10 Kuchikutai
+		ship = { name = "夕雾" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "狭雾" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+	}
+	
+#Sasebo (Nagasaki)
+	navy = {	
+		name = "第2舰队"
+		base = 9950
+		location = 9950  #Sasebo
+		#Dai 5 Sentai
+		ship = { name = "羽黑" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "妙高级"} } }	
+		ship = { name = "那智" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "妙高级"} } }
+		ship = { name = "妙高" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "妙高级"} } }
+		ship = { name = "爱宕" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP version_name = "高雄级"} } }
+		#Dai 7 Sentai
+		ship = { name = "青叶" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "衣笠" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		# Dai 2 Koku Sentai
+		ship = { name = "加贺" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP version_name = "赤城级"} } 			
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 16 } # historical 16		//12
+				cv_CAS_equipment_1 = { owner = "JAP" amount = 16 } # historical 16				//12
+				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 28 } # historical 28//21
+			}
+		}
+	}
+	navy = {	
+		name = "第2水雷战队" #A part of "Dai 2 Kantai"
+		base = 9950
+		location = 9950  #Sasebo
+		#Flagship
+		ship = { name = "那珂" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "川内级"} } }
+		#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
+		ship = { name = "晓" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "响" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+		ship = { name = "雷" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "电" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+		#Dai 8 Kuchikutai
+		ship = { name = "天雾" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }			
+		ship = { name = "朝雾" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		#Dai 19 Kuchikutai
+		ship = { name = "浦波" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "绫波" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "敷波" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		#Dai 20 Kuchikutai
+		ship = { name = "吹雪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+		ship = { name = "东云" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "磯波" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		#Dai 28 Kuchikutai
+		ship = { name = "朝凪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "夕凪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	navy = {	
+		name = "第2潜水战队" #A part of "Dai 2 Kantai"
+		base = 9950
+		location = 9950  #Sasebo
+		#Flagship
+		ship = { name = "鬼怒" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }	
+		#Junsen-class Submarines
+		ship = { name = "伊-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }		
+		ship = { name = "伊-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }		
+		ship = { name = "伊-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+		ship = { name = "伊-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP version_name = "海大III型"} } }	
+	}
+
+	navy = {
+		name = "佐世保预备舰队" #"Sasebo Yobikantai" # Patrol and reserve fleet, including ships under modernization
+		base = 9950
+		location = 9950  #Sasebo
+
+		ship = { name = "金刚" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "雾岛" definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "赤城" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP version_name = "赤城级"} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "JAP" amount = 9 } 	# historical 12
+				cv_CAS_equipment_1 = { owner = "JAP" amount = 12 } 			# historical 18
+				cv_nav_bomber_equipment_1 =  { owner = "JAP" amount = 24 } 	# historical 36
+			}
+		}	
+		ship = { name = "名取" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		ship = { name = "由良" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		ship = { name = "北上" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		ship = { name = "龙田" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		#Dai 22 Kuchikutai
+		ship = { name = "皐月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "水无月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "文月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "长月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		# Dai 23 Kuchikutai 
+		ship = { name = "菊月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "三日月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "望月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "夕月" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+#Hiroshima (Kure)
+
+	navy = {
+		name = "吴预备舰队" #"Kure Yobikantai" # Patrol and reserve fleet, including ships under modernization
+		base = 1092
+		location = 1092  # Hiroshima
+		ship = { name = "伊势" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP version_name = "伊势级"} } }		
+		ship = { name = "日向" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP version_name = "伊势级"} } }
+		ship = { name = "最上" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "三隈" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = { name = "古鹰" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "加古" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "大井" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } }
+		ship = { name = "天龙" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "多摩" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "球磨级"} } } # at Maizuru
+		# Dai 11 Kuchikutai
+		ship = { name = "白雪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "初雪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		# Dai 12 Kuchikutai
+		ship = { name = "叢云" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }		
+		ship = { name = "薄云" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "白云" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		# Dai 7 Kuchikutai
+		ship = { name = "胧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "曙" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }	
+		ship = { name = "涟" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+		ship = { name = "潮" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP version_name = "吹雪级"} } }
+	}
+	navy = {
+		name = "第3潜水舰队"
+		base = 1092
+		location = 1092  # Hiroshima
+		#Kaichu-class Submarines
+		ship = { name = "吕-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-28" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-30" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-31" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-32" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-33" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		#Type L-class Submarines
+		ship = { name = "吕-51" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-56" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-57" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-58" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-59" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-60" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-61" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-62" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-63" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-64" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-65" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-66" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-67" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "吕-68" definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }	
+	}
+
+#Ominato
+	navy = {
+		name = "大凑警备战队"
+		base = 9859
+		location = 9859  #Ominato
+		#Dai 1 Kuchikutai
+		ship = { name = "神风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "野风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "波风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "沼风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+
+#Pusan
+
+	navy = {
+		name = "防护巡洋舰舰队" #"Bogojunyokan Kantai"
+		base = 4056
+		location = 4056  # Pusan
+		#Mutsuki-class destroyers
+		ship = { name = "磐手" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "平户" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "矢矧" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }	
+	}
+	
+#Truk
+
+	navy = {
+		name = "南浦油运船团"#"Nanpo Yuso Sendan"
+		base = 2489
+		location = 2489  # Truk
+		ship = { name = "追风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "疾风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "夕颜" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		#Former Dai 2 Kuchikutai
+		ship = { name = "峯风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "泽风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "冲风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "矢风" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+	}
+	
+#下北泽
+	navy = {
+		name = "下北泽舰队"
+		base = 9998	#Yokosuka
+		location = 5664  #东京湾
+		ship = { name = "天降伟人李田所" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP version_name = "野兽级" } } }
+	}
+}
+
+#AIRCRAFT
+air_wings = {
+	### IJA Air Forces ###
+	# 1 Hikodan -- Tokyo
+	282 = { 
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 16 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 6 Hiko Rentai -- Mitsubishi Ki-2
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+		# 9 Hiko Rentai -- Mitsubishi Ki-1
+		tac_bomber_equipment_0 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+	}
+
+	# 2 Hikodan -- Dalian
+	716 = {
+		# 3 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 5 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+	}
+
+	# 3 Hikodan -- Taiwan
+	524 = {
+		# 10 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+
+	}
+
+	### IJN Air Forces ###
+	# 1 Rengo Kokutai -- Taiwan
+	524 = {
+		# Kizarazu Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 60
+		}
+		# Kanoya Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 60
+		}
+	}
+
+	# 2 Rengo Kokutai -- Taiwan
+	524 = {
+		# 12 Kokutai -- Nakajima A4N1
+		cv_fighter_equipment_0 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 13 Kokutai -- Mitsubishi B2M2
+		cv_nav_bomber_equipment_1 = {
+			owner = "JAP" 
+			amount = 48
+		}
+	}
+
+	### Akagi CAG -- Hiroshima (while Akagi is refit)
+	529 = { 
+		cv_fighter_equipment_0 =  {
+			owner = "JAP" 
+			amount = 12
+		}
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 9
+		}
+		cv_nav_bomber_equipment_1 =  {
+			owner = "JAP" 
+			amount = 9
+		}
+
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = cv_nav_bomber_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+
+### Ongoing Naval Production Jan 1 1936 ###
+		add_equipment_production = {				# "Hiei"
+			equipment = {
+				type = battleship_2
+				creator = "JAP"
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}
+		add_equipment_production = {				# "Soryu"
+			equipment = {
+				type = carrier_2
+
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.66
+
+			amount = 1
+		}
+		add_equipment_production = {				# "Suzuya"
+			equipment = {
+				type = heavy_cruiser_2
+
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}		
+		add_equipment_production = {				# "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "吹雪级"
+			}
+			requested_factories = 3
+			progress = 0.7
+			amount = 5
+		}		
+		add_equipment_production = {				# "I-172" "I-73" "I-174" "I-175"
+			equipment = {
+				type = submarine_2
+				creator = "JAP" 
+			}
+			requested_factories = 2
+			progress = 0.7
+			amount = 4
+		}
+
+		add_equipment_production = {				# "I-7" "I-8"
+			equipment = {
+				type = submarine_1
+				creator = "JAP" 
+				version_name = "海大III型"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 1
+		}
+		add_equipment_production = {				# "Ro-34"
+			equipment = {
+				type = submarine_1
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.8
+			amount = 1
+		}
+}

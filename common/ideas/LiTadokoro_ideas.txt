@@ -1,0 +1,36 @@
+ideas = {
+
+    # 田所研究所
+    industrial_concern = {
+        tadokoro_institute = {
+            #picture = stalingrad_tractor_factory
+
+            allowed = {
+				OR = {
+					original_tag = JAP
+					original_tag = PRC
+					original_tag = CHI
+				}
+            }
+
+            available = {
+                controls_state = 282
+            }
+
+            research_bonus = {
+                armor = -0.10
+                infantry_weapons = 0.05
+                motorized_equipment = 0.10
+                industry = -0.2
+                synth_resources = 0.2
+                electronics = 0.2
+            }
+
+            traits = { tadokoro_institute_concern }
+
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

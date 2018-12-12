@@ -1,0 +1,31 @@
+leader_traits = {
+	
+	tadokoro_institute_concern = {
+		random = no
+
+		# equipment_bonus = {
+		# 	carrier = {
+		# 		naval_speed = 0.15
+		# 		instant = yes
+		# 	}
+		# 	capital_ship = {
+		# 		naval_speed = 0.2
+		# 		instant = yes
+		# 	}
+		# 	screen_ship = {
+		# 		naval_speed = 0.25
+		# 		instant = yes
+		# 	}
+		# 	submarine = {
+		# 		naval_speed = 0.25
+		# 		instant = yes
+		# 	}
+		# }
+		naval_speed_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

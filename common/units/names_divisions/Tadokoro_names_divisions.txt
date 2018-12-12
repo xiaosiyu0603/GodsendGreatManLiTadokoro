@@ -1,0 +1,63 @@
+﻿JAP_TDK_01 =
+{
+    name = "下北泽特别行动联队"
+
+    for_countries = {JAP}
+
+    can_use =
+    {
+        always = yes
+        #controls_state = 716
+    }
+
+    division_types = {"motorized"}
+
+    link_numbering_with = {}
+
+    fallback_name = "第%d下北泽特别联队"
+
+    ordered =
+    {
+        1 = {"李田所直属下北泽特别行动联队"}
+    }
+}
+
+JAP_TDK_02 =
+{
+    name = "雷普联队"
+
+    for_countries = {JAP}
+
+    can_use = {always = yes}
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "第%d雷普联队"
+
+    ordered =
+    {
+        1 = {"雷普指挥部"}
+    }
+}
+
+JAP_TDK_03 =
+{
+    name = "田所师团"
+
+    for_countries = {JAP}
+
+    can_use = {always = yes}
+
+    division_types = {"mountaineers"}
+
+    link_numbering_with = {}
+
+    fallback_name = "第%d田所师团"
+
+    ordered =
+    {
+        1 = {"一转攻势师团"}
+    }
+}

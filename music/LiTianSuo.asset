@@ -1,0 +1,9 @@
+music = {
+	name = "RedSun"
+	file = "RedSun.ogg"
+}
+
+music = {
+	name = "theGreatWallNeverFalls"
+	file = "theGreatWallNeverFalls.ogg"
+}

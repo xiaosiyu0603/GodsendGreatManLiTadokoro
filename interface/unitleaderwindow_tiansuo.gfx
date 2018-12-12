@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+		#### Leader trait icons ####
+
+	spriteType = {
+		name = "GFX_trait_tiansuo_leader"
+		texturefile = "gfx/interface/traits/trait_tiansuo_leader.dds"
+	}			
+
+	spriteType = {
+		name = "GFX_trait_ym_joker"
+		texturefile = "gfx/interface/traits/trait_ym_joker.dds"
+	}			
+
+}

@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	# spriteType = {
+	# 	name = "GFX_trait_tiansuo_leader"
+	# 	texturefile = "gfx/interface/trait_tiansuo_leader.dds"
+	# }			
+
+	spriteType = {
+		name = "GFX_idea_tadokoro_institute"
+		texturefile = "gfx/interface/ideas/idea_tadokoro_institute.dds"
+	}
+}
