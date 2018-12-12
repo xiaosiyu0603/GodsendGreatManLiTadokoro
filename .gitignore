@@ -1,3 +1,5 @@
 *.ogg
 *.mp4
 *.bak
+
+.ignore/
