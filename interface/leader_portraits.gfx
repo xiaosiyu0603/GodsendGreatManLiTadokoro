@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_INM_YajyuuSenPai"
+		texturefile = "gfx/leaders/XiaBeiZe/Portrait_INM_Yajyuu_SenPai.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_INM_TNOK"
+		texturefile = "gfx/leaders/XiaBeiZe/Portrait_INM_TNOK.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_INM_LiTadokoro"
+		texturefile = "gfx/leaders/XiaBeiZe/Portrait_INM_Li_Tadokoro.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_INM_Miura"
+		texturefile = "gfx/leaders/XiaBeiZe/GFX_Portrait_INM_Miura.dds"
+	}
+}

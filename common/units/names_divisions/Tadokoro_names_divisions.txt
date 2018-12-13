@@ -1,13 +1,13 @@
-﻿JAP_TDK_01 =
+﻿INM_TDK_01 =
 {
     name = "下北泽特别行动联队"
 
-    for_countries = {JAP}
+    for_countries = {JAP INM}
 
     can_use =
     {
         always = yes
-        #controls_state = 716
+        controls_state = 763
     }
 
     division_types = {"motorized"}
@@ -22,11 +22,11 @@
     }
 }
 
-JAP_TDK_02 =
+INM_TDK_02 =
 {
     name = "雷普联队"
 
-    for_countries = {JAP}
+    for_countries = {JAP INM}
 
     can_use = {always = yes}
 
@@ -42,11 +42,11 @@ JAP_TDK_02 =
     }
 }
 
-JAP_TDK_03 =
+INM_TDK_03 =
 {
     name = "田所师团"
 
-    for_countries = {JAP}
+    for_countries = {JAP INM}
 
     can_use = {always = yes}
 

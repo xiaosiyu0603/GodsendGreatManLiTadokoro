@@ -21,14 +21,14 @@ add_ideas = {
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {
-		JAP_interservice_rivalry_balanced		
+		JAP_interservice_rivalry_balanced
 	}
 }
 
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_recon = 1
 	tech_engineers = 1
 	motorised_infantry = 1
@@ -72,7 +72,7 @@ create_import = {
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 
 	#adding ministers
 	add_ideas = {
@@ -137,7 +137,7 @@ create_import = {
 		cv_fighter1 = 1
 		fighter1 = 1
 		tactical_bomber1 = 1
-	
+
 		#doctrines
 		#air
 		force_rotation = 1
@@ -206,20 +206,20 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 100
 		}
-		
+
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 	}
-	
+
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -231,20 +231,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			democratic = {
 				popularity = 0
 			}
 
 			fascism = {
 				popularity = 100
 			}
-			
+
 			communism = {
 				popularity = 0
 				#banned = no #default is no
 			}
 		}
-		
+
 		ruling_party = fascism
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -302,7 +302,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "寺内寿一" #"Hisaichi Terauchi"
 	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
 		JAP_samurai_lineage   # hakushaku
 		politically_connected
@@ -340,7 +340,7 @@ create_corps_commander = {
 	name = "石原莞尔" #"Kanji Ishiwara"
 		picture = "Portrait_Japan_Kanji_Ishiwara.dds"
 	traits = { JAP_samurai_lineage }
-	skill = 1 
+	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
@@ -395,7 +395,7 @@ create_corps_commander = {
 	name = "东久迩盛厚" #"Naruhiko Higashikuni"
 	picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
 	traits = { JAP_samurai_lineage politically_connected }
-	skill = 3 
+	skill = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
@@ -428,7 +428,7 @@ create_corps_commander = {
 	name = "土肥原贤二" #"Kenji Doihara"
 		picture = "Portrait_Japan_Kenji_Doihara.dds"
 	traits = { career_officer substance_abuser }
-	skill = 1 
+	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
@@ -514,7 +514,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "藤江惠辅" #"Keisuke Fujie"
 		picture = "Portrait_Japan_Keisuke_Fujie.dds"
-	traits = { fortress_buster career_officer politically_connected } 
+	traits = { fortress_buster career_officer politically_connected }
 	skill = 3
 	attack_skill = 1
 	defense_skill = 3
@@ -699,7 +699,7 @@ create_navy_leader = {
 			}
 			obsolete = yes
 		}
-		### Battleship Variants	
+		### Battleship Variants
 		create_equipment_variant = {
 			name = "伊势级" #"Ise Class"
 			type = battleship_1
@@ -724,7 +724,7 @@ create_navy_leader = {
 			}
 			obsolete = yes
 		}
-		### Heavy Cruiser Variants	
+		### Heavy Cruiser Variants
 		create_equipment_variant = {
 			name = "妙高级" #"Myoko Class"
 			type = heavy_cruiser_1
@@ -749,7 +749,7 @@ create_navy_leader = {
 			}
 			#obsolete = yes
 		}
-		### Light Cruiser Variants	
+		### Light Cruiser Variants
 		create_equipment_variant = {
 			name = "球磨级" #"Kuma Class"
 			type = light_cruiser_1
@@ -785,8 +785,8 @@ create_navy_leader = {
 				ship_ASW_upgrade = 2
 				ship_anti_air_upgrade = 2
 			}
-		}	
-		### Submarine Variants	
+		}
+		### Submarine Variants
 		create_equipment_variant = {
 			name = "海大III型" #"Kaidai III Class"
 			type = submarine_1
@@ -798,9 +798,9 @@ create_navy_leader = {
 				sub_torpedo_upgrade = 2
 			}
 			obsolete = yes
-		}	
+		}
 
-	# 1939 Start #			
+	# 1939 Start #
 	1939.1.1 = {
 		### Carrier Variants
 		create_equipment_variant = {
@@ -826,7 +826,7 @@ create_navy_leader = {
 		#		ship_anti_air_upgrade = 2
 		#	}
 		#	obsolete = yes
-		#}	
+		#}
 		create_equipment_variant = {
 			name = "阳炎级" #"Kagero Class"
 			type = destroyer_2
@@ -837,56 +837,56 @@ create_navy_leader = {
 				ship_ASW_upgrade = 2
 				ship_anti_air_upgrade = 2
 			}
-		}	
+		}
 	}
-	
-		
+
+
 #New Leader
-create_field_marshal = {
-	name = "李 田 所"
-	portrait_path = "gfx/leaders/XiaBeiZe/Portrait_Li_TianSuo.tga"
-	#traits = { inspirational_leader }
-	traits = { tiansuo_leader substance_abuser }
-	skill = 5
-	attack_skill = 9
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+# create_field_marshal = {
+# 	name = "李 田 所"
+# 	portrait_path = "gfx/leaders/XiaBeiZe/Portrait_Li_TianSuo.tga"
+# 	#traits = { inspirational_leader }
+# 	traits = { tiansuo_leader substance_abuser }
+# 	skill = 5
+# 	attack_skill = 9
+# 	defense_skill = 1
+# 	planning_skill = 1
+# 	logistics_skill = 1
+# }
 
 ### Battleship Variants
-		#create_equipment_variant = {
-		#	name = "野兽级"
-		#	type = battleship_1
-		#	parent_version = 0
-		#	upgrades = {
-		#		ship_reliability_upgrade = 10
-		#		ship_engine_upgrade = 10
-		#		ship_armor_upgrade = 10
-		#		ship_gun_upgrade = 10
-		#	}
-		#}
-		create_equipment_variant = {
-			name = "野兽级"
-			type = battleship_1
-			parent_version = 0
-			upgrades = {
-				ship_reliability_upgrade = 0
-				ship_engine_upgrade = 20
-				ship_armor_upgrade = 0
-				ship_gun_upgrade = 20
-			}
-		}
-	1939.1.1 = {
-		create_equipment_variant = {
-			name = "便乘级"
-			type = SH_battleship_1
-			parent_version = 0
-			upgrades = {
-				ship_reliability_upgrade = 0
-				ship_engine_upgrade = 20
-				ship_armor_upgrade = 0
-				ship_gun_upgrade = 20
-			}
-		}
-	}
+	# 	#create_equipment_variant = {
+	# 	#	name = "野兽级"
+	# 	#	type = battleship_1
+	# 	#	parent_version = 0
+	# 	#	upgrades = {
+	# 	#		ship_reliability_upgrade = 10
+	# 	#		ship_engine_upgrade = 10
+	# 	#		ship_armor_upgrade = 10
+	# 	#		ship_gun_upgrade = 10
+	# 	#	}
+	# 	#}
+	# 	create_equipment_variant = {
+	# 		name = "野兽级"
+	# 		type = battleship_1
+	# 		parent_version = 0
+	# 		upgrades = {
+	# 			ship_reliability_upgrade = 0
+	# 			ship_engine_upgrade = 20
+	# 			ship_armor_upgrade = 0
+	# 			ship_gun_upgrade = 20
+	# 		}
+	# 	}
+	# 1939.1.1 = {
+	# 	create_equipment_variant = {
+	# 		name = "便乘级"
+	# 		type = SH_battleship_1
+	# 		parent_version = 0
+	# 		upgrades = {
+	# 			ship_reliability_upgrade = 0
+	# 			ship_engine_upgrade = 20
+	# 			ship_armor_upgrade = 0
+	# 			ship_gun_upgrade = 20
+	# 		}
+	# 	}
+	# }

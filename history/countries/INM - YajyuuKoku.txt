@@ -1,0 +1,469 @@
+﻿capital = 763
+
+oob = "INM_1936"
+
+set_stability = 0.6 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.8
+
+set_research_slots = 6	# 4
+
+add_ideas = {
+	state_shintoism
+	limited_exports
+	limited_conscription
+	war_economy
+
+	JAP_militarism
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	# 陆军学说
+	mobile_warfare = 1
+	superior_firepower = 1
+	trench_warfare = 1
+	mass_assault = 1
+	# 空军学说
+	air_superiority = 1
+	force_rotation = 1
+	formation_flying = 1
+	# 海军学说
+	fleet_in_being = 1
+	trade_interdiction = 1
+	base_strike = 1
+
+	synth_oil_experiments = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+
+
+	#adding ministers
+	add_ideas = {
+		# JAP_mitsumasa_yonai
+		# minoru_genda
+		# hajime_sugiyama
+		# soemu_toyoda
+		# fushimi_hiroyasu
+		# kawasaki
+
+		#laws
+		tot_economic_mobilisation
+		extensive_conscription
+		closed_economy
+	}
+
+	# declare_war_on = {
+	# 	target = CHI
+	# 	type = puppet_wargoal_focus
+	# }
+	#declare_war_on = {
+	#	target = GXC
+	#	type = puppet_focus
+	#}
+	#declare_war_on = {
+	#	target = YUN
+	#	type = puppet_focus
+	#}
+	#declare_war_on = {
+	#	target = PRC
+	#	type = annex_everything
+	#}
+	oob = "INM_1939"
+	set_technology = {
+
+		#PLACEHOLDERS for vehicles
+		improved_submarine = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		improved_heavy_cruiser = 1
+		improved_carrier = 1
+		heavy_battleship = 1
+		cv_fighter1 = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
+
+		#doctrines
+		#air
+		force_rotation = 1
+		fighter_baiting = 1
+		low_echelon_support = 1
+		dispersed_fighting = 1
+
+		grand_battle_plan = 1
+		prepared_defense = 1
+		grand_assault = 1
+		carrier_primacy = 1
+		carrier_task_forces = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+		concentrated_industry3 = 1
+	}
+}
+
+set_convoys = 191
+
+# if = {
+# 	limit = {
+# 		has_dlc = "Together for Victory"
+# 	}
+# 	set_autonomy = {
+# 		target = MEN
+# 		autonomous_state = autonomy_integrated_puppet
+# 	}
+# 	set_autonomy = {
+# 		target = MAN
+# 		autonomous_state = autonomy_integrated_puppet
+# 	}
+# 	else = {
+# 		set_autonomy = {
+# 			target = MEN
+# 			autonomous_state = autonomy_puppet
+# 		}
+# 		set_autonomy = {
+# 			target = MAN
+# 			autonomous_state = autonomy_puppet
+# 		}
+# 	}
+# }
+
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 10
+		}
+		fascism = {
+			popularity = 10
+		}
+		communism = {
+			popularity = 10
+			#banned = no #default is no
+		}
+		neutrality = {
+			popularity = 70
+		}
+	}
+
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			democratic = {
+				popularity = 10
+			}
+			fascism = {
+				popularity = 60
+			}
+			communism = {
+				popularity = 10
+			}
+			neutrality = {
+				popularity = 20
+			}
+		}
+
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
+create_country_leader = {
+	name = "野兽先辈"
+	desc = "POLITICS_INM_YajyuuSenPai_DESC"
+	picture = "GFX_Portrait_INM_YajyuuSenPai"
+	expire = "2019.8.16"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "谷冈俊一"
+	desc = "POLITICS_INM_KNOK_DESC"
+	picture = "GFX_Portrait_INM_TNOK"
+	expire = "1989.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "李田所"
+	desc = "POLITICS_INM_LiTadokoro_DESC"
+	picture = "GFX_Portrait_INM_LiTadokoro"
+	expire = "1989.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "三浦法师"
+	desc = "POLITICS_INM_Miura_DESC"
+	picture = "GFX_Portrait_INM_Miura"
+	expire = "1989.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+
+### VARIANTS ###
+	# 1936 Start #
+		### Carrier Variants
+		create_equipment_variant = {
+			name = "赤城级" #"Akagi Class"
+			type = carrier_1
+			parent_version = 0
+			upgrades = {
+				ship_deckspace_upgrade = 5
+				carrier_armor_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_reliability_upgrade = 3
+			}
+			obsolete = yes
+		}
+		### Battleship Variants
+		create_equipment_variant = {
+			name = "伊势级" #"Ise Class"
+			type = battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 3
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "长门级" #"Nagato Class"
+			type = battleship_1
+			parent_version = 1
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 4
+				ship_armor_upgrade = 3
+				ship_gun_upgrade = 4
+			}
+			obsolete = yes
+		}
+		### Heavy Cruiser Variants
+		create_equipment_variant = {
+			name = "妙高级" #"Myoko Class"
+			type = heavy_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_armor_upgrade = 2
+				ship_gun_upgrade = 3
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "高雄级" #"Antago Class"
+			type = heavy_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 2
+				ship_armor_upgrade = 3
+				ship_gun_upgrade = 3
+			}
+			#obsolete = yes
+		}
+		### Light Cruiser Variants
+		create_equipment_variant = {
+			name = "球磨级" #"Kuma Class"
+			type = light_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_gun_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "川内级" #"Sendai Class"
+			type = light_cruiser_1
+			parent_version = 1
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 3
+				ship_gun_upgrade = 1
+				ship_anti_air_upgrade = 2
+			}
+			obsolete = yes
+		}
+		### Destroyer Variants
+		create_equipment_variant = {
+			name = "吹雪级" #"Fubuki Class"
+			type = destroyer_1
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 4
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}
+		### Submarine Variants
+		create_equipment_variant = {
+			name = "海大III型" #"Kaidai III Class"
+			type = submarine_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 3
+				sub_engine_upgrade = 3
+				sub_stealth_upgrade = 1
+				sub_torpedo_upgrade = 2
+			}
+			obsolete = yes
+		}
+
+	# 1939 Start #
+	1939.1.1 = {
+		### Carrier Variants
+		create_equipment_variant = {
+			name = "飞龙级" #"Hiryu Class"
+			type = carrier_2
+			parent_version = 0
+			upgrades = {
+				ship_deckspace_upgrade = 1
+				carrier_armor_upgrade = 0
+				ship_engine_upgrade = 0
+				ship_reliability_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "阳炎级" #"Kagero Class"
+			type = destroyer_2
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 3
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}
+	}
+
+
+#New Leader
+create_field_marshal = {
+	name = "李 田 所"
+	portrait_path = "gfx/leaders/XiaBeiZe/Portrait_Li_TianSuo.tga"
+	#traits = { inspirational_leader }
+	traits = { tiansuo_leader substance_abuser }
+	skill = 5
+	attack_skill = 9
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Battleship Variants
+		#create_equipment_variant = {
+		#	name = "野兽级"
+		#	type = battleship_1
+		#	parent_version = 0
+		#	upgrades = {
+		#		ship_reliability_upgrade = 10
+		#		ship_engine_upgrade = 10
+		#		ship_armor_upgrade = 10
+		#		ship_gun_upgrade = 10
+		#	}
+		#}
+		create_equipment_variant = {
+			name = "野兽级"
+			type = battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 0
+				ship_engine_upgrade = 20
+				ship_armor_upgrade = 0
+				ship_gun_upgrade = 20
+			}
+		}
+	1939.1.1 = {
+		create_equipment_variant = {
+			name = "便乘级"
+			type = SH_battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 0
+				ship_engine_upgrade = 20
+				ship_armor_upgrade = 0
+				ship_gun_upgrade = 20
+			}
+		}
+	}

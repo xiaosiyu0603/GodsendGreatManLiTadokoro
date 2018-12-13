@@ -58,8 +58,16 @@ leader_traits = {
             FROM = {
                 tag = JAP
             }
+            # OR ={
+            #     FROM = {
+            #         tag = JAP
+            #     }
+            #     FROM = {
+            #         tag = INM
+            #     }
+            # }
         }
-		
+
 		non_shared_modifier = {
 			experience_gain_factor = +0.2
             promote_cost_factor = -0.25
@@ -88,9 +96,65 @@ leader_traits = {
             supply_consumption_factor = +0.2
             wounded_chance_factor = 1
         }
-        
+
         new_commander_weight = {
-            factor = 1  # Scripted starting leaders only
+            factor = 2
+            # OR ={
+            #     if = {
+            #         limit = { tag=JAP }
+            #         factor = 1  # Scripted starting leaders only
+            #     }
+            #     if = {
+            #         limit = { tag=INM }
+            #         factor = 5  # Scripted starting leaders only
+            #     }
+            # }
+        }
+    }
+
+    inm_joker = {	#Ying Meng Xiao Gui
+        type = all
+        trait_type = personality_trait
+        gain_xp = {
+            always = no  # not gainable
+        }
+        allowed = {
+            FROM = {
+                tag = INM
+            }
+        }
+
+		non_shared_modifier = {
+			experience_gain_factor = +0.2
+            promote_cost_factor = -0.25
+			reassignment_duration_factor = 1   # +100% cost to replace leader
+		}
+
+        trait_xp_factor = {
+            infantry_leader = 0.2  # +100%
+            cavalry_leader = 0.2
+            panzer_leader = 0.2
+        }
+
+        corps_commander_modifier = {
+            max_commander_army_size = -4
+        }
+
+        field_marshal_modifier = {
+            max_army_group_size = -1
+        }
+
+		modifier = {
+            max_dig_in = -2
+            combat_width_factor = -0.2
+            planning_speed = 0.2
+            max_planning = -0.50
+            supply_consumption_factor = +0.2
+            wounded_chance_factor = 1
+        }
+
+        new_commander_weight = {
+            factor = 20
         }
     }
 }

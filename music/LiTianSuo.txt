@@ -1,22 +1,22 @@
 
 music = {
 	song = "RedSun"
-	
+
 	chance = {
 		modifier = {
 			factor = 2
-			tag = JAP
+			tag = {JAP INM}
 		}
-	}	
+	}
 }
 
 music = {
 	song = "theGreatWallNeverFalls"
-	
+
 	chance = {
 		modifier = {
 			factor = 2
-			tag = JAP
-		}	
-	}	
+			tag = {JAP INM}
+		}
+	}
 }
