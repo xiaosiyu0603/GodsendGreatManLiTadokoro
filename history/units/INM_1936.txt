@@ -1,7 +1,6 @@
 division_template = {
-	name = "甲种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = INM_TDK_03
-									# 1 engineering regiment, 1 recon regiment
+	name = "下北沢甲种步兵师团"				# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = INM_TDK_03	# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -30,9 +29,8 @@ division_template = {
 	}
 }
 division_template = {
-	name = "乙种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = INM_TDK_03
-									# 1 engineering regiment, 1 recon regiment
+	name = "下北沢乙种步兵师团" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = INM_TDK_03	# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -52,39 +50,21 @@ division_template = {
 		recon = { x = 0 y = 1 }
 	}
 }
+# division_template = {
+# 	name = "骑兵师团" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+# 	division_names_group = INM_POL_01
+# 	regiments = {
+# 		cavalry = { x = 0 y = 0 }
+# 		cavalry = { x = 0 y = 1 }
+# 		cavalry = { x = 0 y = 2 }
+# 		cavalry = { x = 1 y = 0 }
+# 		cavalry = { x = 1 y = 1 }
+# 		cavalry = { x = 1 y = 2 }
+# 	}
+# }
 division_template = {
-	name = "独立混成旅团" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
-	division_names_group = INM_TDK_01
-										# 1 engineering battalion
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		light_armor = { x= 2 y = 0 }
-		light_armor = { x= 2 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-	}
-}
-division_template = {
-	name = "骑兵师团" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
-	division_names_group = INM_TDK_02
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-	}
-}
-division_template = {
-	name = "自动车师团" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment,
-	division_names_group = INM_TDK_02
-										#1 engineer regiment, 1 mounted artillery regiment
+	name = "下北沢自动车师团" 			# Motorized divisions - 4 motorized infantry regiments (3k men each), 1 recon regiment,
+	division_names_group = INM_TDK_01	#1 engineer regiment, 1 mounted artillery regiment
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -105,26 +85,10 @@ division_template = {
 		recon = { x = 0 y = 2 }
 	}
 }
+
 division_template = {
-	name = "陆战队"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
-	division_names_group = INM_TDK_01
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-	}
-	priority = 2
-}
-division_template = {
-	name = "驻屯师团" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
-	division_names_group = INM_TDK_03
-										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
+	name = "下北沢自治团体动员力量" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+	division_names_group = INM_VKR_02	# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -135,6 +99,145 @@ division_template = {
 	}
 	priority = 0
 }
+division_template = {
+	name = "红茶进出口管理局稽查队" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = INM_BTB_01	# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "下北沢昏睡警队"				# Tank Group - Groupings of tank 'regiments' (battalion-sized units)
+	division_names_group = INM_POL_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "下北沢下药突击队" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	division_names_group = INM_BTB_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		military_police = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "下北沢暴力团"
+	division_names_group = INM_KNO_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "下北沢人民雷普队" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = INM_VKR_01	# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		infantry = { x = 3 y = 4 }
+		infantry = { x = 4 y = 0 }
+		infantry = { x = 4 y = 1 }
+		infantry = { x = 4 y = 2 }
+		infantry = { x = 4 y = 3 }
+		infantry = { x = 4 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		maintenance = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "下北沢便乘传教团"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+	division_names_group = INM_RMN_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+	priority = 2
+}
 
 units = {
 	division = {
@@ -143,15 +246,15 @@ units = {
 			name_order = 1
 		}
 		location = 7157
-		division_template = "甲种步兵师团"
-		start_experience_factor = 0.3
+		division_template = "下北沢自治团体动员力量"
+		start_experience_factor = 0.1
 	}
 	division = {
-		name = "下北泽红茶进出口管理局稽查队"
+		name = "下北泽红茶进出口管理局稽查总队"
 		location = 7157
-		division_template = "驻屯师团"
+		division_template = "红茶进出口管理局稽查队"
 		start_experience_factor = 0.8
-		start_equipment_factor = 1
+		start_equipment_factor = 2
 	}
 
 	navy = {

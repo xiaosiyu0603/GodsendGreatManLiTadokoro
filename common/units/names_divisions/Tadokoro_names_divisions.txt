@@ -2,7 +2,7 @@
 {
     name = "下北泽特别行动联队"
 
-    for_countries = {JAP INM}
+    for_countries = {JAP INM CHI PRC}
 
     can_use =
     {
@@ -26,9 +26,13 @@ INM_TDK_02 =
 {
     name = "雷普联队"
 
-    for_countries = {JAP INM}
+    for_countries = {JAP INM CHI PRC}
 
-    can_use = {always = yes}
+    can_use =
+    {
+        always = yes
+        controls_state = 763
+    }
 
     division_types = {"infantry"}
 
@@ -46,11 +50,15 @@ INM_TDK_03 =
 {
     name = "田所师团"
 
-    for_countries = {JAP INM}
+    for_countries = {JAP INM CHI PRC}
 
-    can_use = {always = yes}
+    can_use =
+    {
+        always = yes
+        controls_state = 763
+    }
 
-    division_types = {"mountaineers"}
+    division_types = {"infantry"}
 
     link_numbering_with = {}
 
@@ -59,5 +67,183 @@ INM_TDK_03 =
     ordered =
     {
         1 = {"一转攻势师团"}
+    }
+}
+
+INM_BTB_01 =
+{
+    name = "红茶稽查队"
+
+    for_countries = {JAP INM CHI PRC}
+
+    can_use =
+    {
+        always = yes
+        controls_state = 763
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "下北泽红茶进出口管理局第%d稽查大队"
+
+    ordered =
+    {
+        1 = {"下北泽红茶进出口管理局第%d稽查大队“人间之屑”"}
+        2 = {"下北泽红茶进出口管理局第%d稽查大队“软手机”"}
+        3 = {"下北泽红茶进出口管理局第%d稽查大队“日光浴”"}
+    }
+}
+
+INM_POL_01 =
+{
+    name = "昏睡警局"
+
+    for_countries = {JAP INM CHI PRC}
+
+    can_use =
+    {
+        always = yes
+        controls_state = 763
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "下北泽昏睡警局第%d警队"
+
+    ordered =
+    {
+        1 = {"下北泽昏睡警察局机动大队"}
+        2 = {"下北泽昏睡警局第%d警队“喝红茶”"}
+    }
+}
+
+INM_KNO_01 =
+{
+    name = "极道暴力团"
+
+    for_countries = {JAP INM}
+
+    can_use =
+    {
+        # AND = {
+        #     has_government = fascism
+            controls_state = 763
+        # }
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "极道第%d暴力胁迫团"
+
+    ordered =
+    {
+        1918 = {"KNOK胁迫团"}
+    }
+}
+
+INM_VKR_01 =
+{
+    name = "人民雷普组织"
+
+    for_countries = {JAP INM}
+
+    can_use =
+    {
+        # AND = {
+        #     has_government = communism
+            controls_state = 763
+        # }
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "人民雷普第%d队"
+
+    ordered =
+    {
+        1918 = {"下北泽人民雷普委员会"}
+    }
+}
+
+INM_RMN_01 =
+{
+    name = "便乘传教团"
+
+    for_countries = {JAP INM}
+
+    can_use =
+    {
+        # AND = {
+        #     has_government = democratic
+            controls_state = 763
+        # }
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "便乘传教第%d团"
+
+    ordered =
+    {
+        1918 = {"便乘佛教教宗护法"}
+    }
+}
+
+INM_BTB_02 =
+{
+    name = "下药突击队"
+
+    for_countries = {JAP INM}
+
+    can_use =
+    {
+        # AND = {
+            # has_government = neutrality
+            controls_state = 763
+        # }
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "第%d下药突击队"
+
+    ordered =
+    {
+        1918 = {"下药示范团"}
+    }
+}
+
+INM_VKR_02 =
+{
+    name = "自治团体动员队"
+
+    for_countries = {JAP INM}
+
+    can_use =
+    {
+        controls_state = 763
+    }
+
+    division_types = {"infantry"}
+
+    link_numbering_with = {}
+
+    fallback_name = "自治团体动员队%d组"
+
+    ordered =
+    {
+        1 = {"自治团体动员队%d组"}
     }
 }

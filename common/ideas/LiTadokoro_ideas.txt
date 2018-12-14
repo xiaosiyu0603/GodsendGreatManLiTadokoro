@@ -1,5 +1,58 @@
 ideas = {
 
+    country = {
+
+        INM_blacktea_mobilization_idea_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = jap_duplicate_research
+			modifier = {
+                conscription = 0.20
+                stability_factor = 0.2
+			}
+        }
+        INM_blacktea_mobilization_idea_2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = jap_duplicate_research
+			modifier = {
+                conscription = 0.40
+                stability_factor = 0.4
+			}
+        }
+        INM_rap_the_jap = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = warrior_traditions_idea
+			modifier = {
+				war_support_factor = 0.2
+				mobilization_laws_cost_factor = -0.25
+				justify_war_goal_time = -0.2
+				research_time_factor = 0.05
+			}
+            targeted_modifier = {
+                tag = JAP
+                generate_wargoal_tension_against = 0.75
+                justify_war_goal_time = -0.4
+            }
+        }
+    }
+
     # 田所研究所
     industrial_concern = {
         tadokoro_institute = {
