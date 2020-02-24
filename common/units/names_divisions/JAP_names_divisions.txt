@@ -806,35 +806,35 @@ JAP_MNT_01 =
     # Number reservation system will tie to another group.
     #link_numbering_with = { JAP_INF_01 }
 
-    fallback_name = "%d Mountain Division"
+    fallback_name = "第%d山岳旅兵师团"
 
     # Names with numbers (only one number per entry).
     # It's okay to have gaps in numbering.
     ordered =
     {
-        6 = {"%d 'Kumamoto' Sangakuryohei Shidan"}
-        7 = {"%d 'Asahigawa' Sangakuryohei Shidan"}
-        9 = {"%d 'Kanazawa' Sangakuryohei Shidan"}
-        11 = {"%d 'Zentsuji' Sangakuryohei Shidan"}
-        15 = {"%d Sangakuryohei Shidan"}
-        16 = {"%d 'Kyoto' Sangakuryohei Shidan"}
-        17 = {"%d Sangakuryohei Shidan"}
-        21 = {"%d Sangakuryohei Shidan"}
-        22 = {"%d Sangakuryohei Shidan"}
-        27 = {"%d 'Chaina' Sangakuryohei Shidan"}
-        29 = {"%d Sangakuryohei Shidan"}
-        32 = {"%d Sangakuryohei Shidan"}
-        33 = {"%d Sangakuryohei Shidan"}
-        34 = {"%d Sangakuryohei Shidan"}
-        35 = {"%d Sangakuryohei Shidan"}
-        36 = {"%d Sangakuryohei Shidan"}
-        37 = {"%d Sangakuryohei Shidan"}
-        38 = {"%d Sangakuryohei Shidan"}
-        39 = {"%d Sangakuryohei Shidan"}
-        40 = {"%d Sangakuryohei Shidan"}
-        41 = {"%d Sangakuryohei Shidan"}
-        52 = {"%d Sangakuryohei Shidan"}
-        104 = {"%d Sangakuryohei Shidan"}
+        6 = {"第%d山岳旅兵师团“熊本”"}
+        7 = {"第%d山岳旅兵师团“旭川”"}
+        9 = {"第%d山岳旅兵师团“金沢”"}
+        11 = {"第%d山岳旅兵师团“善通寺”"}
+        # 15 = {"第%d山岳旅兵师团"}
+        16 = {"第%d山岳旅兵师团“京都”"}
+        # 17 = {"第%d山岳旅兵师团"}
+        # 21 = {"第%d山岳旅兵师团"}
+        # 22 = {"第%d山岳旅兵师团"}
+        27 = {"第%d山岳旅兵师团“Chaina”"}
+        # 29 = {"第%d山岳旅兵师团"}
+        # 32 = {"第%d山岳旅兵师团"}
+        # 33 = {"第%d山岳旅兵师团"}
+        # 34 = {"第%d山岳旅兵师团"}
+        # 35 = {"第%d山岳旅兵师团"}
+        # 36 = {"第%d山岳旅兵师团"}
+        # 37 = {"第%d山岳旅兵师团"}
+        # 38 = {"第%d山岳旅兵师团"}
+        # 39 = {"第%d山岳旅兵师团"}
+        # 40 = {"第%d山岳旅兵师团"}
+        # 41 = {"第%d山岳旅兵师团"}
+        # 52 = {"第%d山岳旅兵师团"}
+        # 104 = {"第%d山岳旅兵师团"}
     }
 }
 
